@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 # Замени на свой токен
-bot = telebot.TeleBot("8287607784:AAFToqSTAGtH989wEmI5tdT0bBDMFeM0RHE")
+bot = telebot.TeleBot("12345")
 
 # Словари для хранения данных
 user_requests = {}
@@ -194,3 +194,4 @@ def handle_other_messages(message):
 print("🤖 Бот техподдержки запущен!")
 print("💌 Режим ответов на заявки активирован!")
 bot.polling(none_stop=True)
+
